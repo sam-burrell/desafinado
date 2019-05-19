@@ -1,8 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Button from "../components/button"
-import headerImage from "../images/header.png"
 import MockupContent from "./image"
 import mockupFrame from "../images/mockup-frame.png"
 
@@ -17,7 +15,6 @@ const Header = ({ siteTitle }) => (
   >
     <div
       style={{
-        backgroundImage: `url(${headerImage})`,
         position: "absolute",
         top: 0,
         zIndex: -5,
@@ -26,12 +23,18 @@ const Header = ({ siteTitle }) => (
         opacity: 0.5,
       }}
     />
-    <h1 style={{ textAlign: "center" }}>Landing Page Starter</h1>
+    <h1 style={{ textAlign: "center" }}>Desafinado</h1>
     <p style={{ textAlign: "center", maxWidth: 440 }}>
-      This landing page looks great on all devices and is minimal in design. Add
-      what you want and deploy.
+      Desafinado is a relaxed function band playing in Herts, Beds, Bucks and
+      North London:
     </p>
-    <Button>Get Early Access</Button>
+    <p style={{ textAlign: "center", maxWidth: 440 }}>
+      Tuneful jazz, standards & latin. As a duo, trio, 4 piece, or 5 piece
+    </p>
+    <p style={{ textAlign: "center", maxWidth: 440 }}>
+      Desafinado is ideal for your club, function, restaurant, bar or private
+      party when you want good music that allows easy conversation
+    </p>
     <div style={{ margin: 60, width: `250px`, position: "relative" }}>
       <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
         <MockupContent />
