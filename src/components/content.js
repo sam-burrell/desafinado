@@ -1,11 +1,13 @@
 import React from "react"
 import Iframe from "react-iframe"
 
-import SectionHeader from "./section-header"
+import Header from "./header"
+import Footer from "./footer"
+
 
 const Content = () => (
-  <div style={{ maxWidth: 440, padding: "4rem 1rem", textAlign: "center" }}>
-    <SectionHeader
+  <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
+    <Header
       title="Desafinado"
       description="Tuneful jazz, standards & latin. As a duo, trio, 4 piece, or 5 piece."
     />
@@ -17,6 +19,9 @@ const Content = () => (
       position="relative"
       frameBorder="0"
     />
+    <div>
+      Desafinado is ideal for your club, function, restaurant, bar or private party when you want good music that allows easy conversation
+    </div>
   </div>
 )
 export default Content
