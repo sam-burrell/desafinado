@@ -9,12 +9,18 @@ body {
   -webkit-flex-direction: column;
   flex-direction: column;
   -webkit-align-items: center;
-   align-items: center;
-   -webkit-justify-content: center;
-   justify-content: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(300px, 1fr);
+  margin-bottom: 20px;
 }
 article,
 aside,
@@ -75,9 +81,6 @@ h1 {
 mark {
   background-color: #ff0;
   color: #000;
-}
-img {
-  border-style: none;
 }
 svg:not(:root) {
   overflow: hidden;
@@ -186,17 +189,6 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "calt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
-}
-img {
-  max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
 }
 h1 {
   margin-left: 0;
@@ -448,7 +440,7 @@ p *:last-child {
 li > p {
   margin-bottom: calc(1.45rem / 2);
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1024px) {
   html {
     font-size: 100%;
   }
