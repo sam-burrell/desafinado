@@ -10,6 +10,8 @@ const Content = () => (
       title="Desafinado"
       description="Tuneful jazz, standards & latin. As a duo, trio, 4 piece, or 5 piece. Desafinado is ideal for your club, function, restaurant, bar or private
       party when you want good music that allows easy conversation"
+      email="desafinado@pburrell.co.uk"
+      phone="07747123322"
     />
     <div className="container">
       <div>
@@ -25,9 +27,6 @@ const Content = () => (
           frameBorder="0"
         />
       </div>
-    </div>
-    <div>
-      <a href="mailto: desafinado@pburrell.co.uk">desafinado@pburrell.co.uk</a>
     </div>
   </div>
 )
