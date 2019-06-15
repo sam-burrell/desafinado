@@ -5,14 +5,16 @@ import Header from "./header"
 import Image from "./image"
 
 const Content = () => (
-  <div style={{ padding: "2rem 1rem", textAlign: "center"}}>
+  <div style={{ padding: "2rem 1rem", textAlign: "center" }}>
     <Header
       title="Desafinado"
       description="Tuneful jazz, standards & latin. As a duo, trio, 4 piece, or 5 piece."
+      text="Desafinado is ideal for your club, function, restaurant, bar or private
+      party when you want good music that allows easy conversation"
     />
     <div className="container">
       <div>
-        <Image/>
+        <Image />
       </div>
       <div>
         <Iframe
@@ -26,8 +28,7 @@ const Content = () => (
       </div>
     </div>
     <div>
-      Desafinado is ideal for your club, function, restaurant, bar or private
-      party when you want good music that allows easy conversation
+      <a href="mailto: desafinado@pburrell.co.uk">desafinado@pburrell.co.uk</a>
     </div>
   </div>
 )
