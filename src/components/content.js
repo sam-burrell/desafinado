@@ -11,7 +11,6 @@ const Content = () => (
       description="Tuneful jazz, standards & latin. As a duo, trio, 4 piece, or 5 piece. Desafinado is ideal for your club, function, restaurant, bar or private
       party when you want good music that allows easy conversation"
       email="desafinado@pburrell.co.uk"
-      phone="07747123322"
     />
     <div>
       <div style={{ margin: "10px" }}>
