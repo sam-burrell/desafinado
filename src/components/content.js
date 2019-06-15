@@ -13,11 +13,11 @@ const Content = () => (
       email="desafinado@pburrell.co.uk"
       phone="07747123322"
     />
-    <div className="container">
-      <div>
+    <div>
+      <div style={{ margin: "10px" }}>
         <Image />
       </div>
-      <div>
+      <div style={{ margin: "10px" }}>
         <Iframe
           url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/784420671&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
           width="100%"

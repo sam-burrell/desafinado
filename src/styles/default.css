@@ -16,12 +16,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.container {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(300px, 1fr);
-  margin-bottom: 20px;
-}
 article,
 aside,
 details,
@@ -439,9 +433,4 @@ p *:last-child {
 }
 li > p {
   margin-bottom: calc(1.45rem / 2);
-}
-@media only screen and (max-width: 1024px) {
-  html {
-    font-size: 100%;
-  }
 }
