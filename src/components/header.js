@@ -4,6 +4,7 @@ const Header = ({ title, description, email, phone }) => (
   <>
     <h2>{title}</h2>
     <p style={{ maxWidth: "800px", color: "black" }}>{description}</p>
+    <p>Herts, Cambs, Beds, Bucks, North London</p>
     <p>
       email: <a href="mailto:{email}">{email}</a>
     </p>
