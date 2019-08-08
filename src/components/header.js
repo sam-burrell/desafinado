@@ -1,11 +1,16 @@
 import React from "react"
 
-import { COLORS } from "../styles/constants"
-
-const Header = ({ title, description }) => (
+const Header = ({ title, description, email, phone }) => (
   <>
     <h2>{title}</h2>
-    <p style={{ color: COLORS.mediumGray }}>{description}</p>
+    <p style={{ maxWidth: "800px", color: "black" }}>{description}</p>
+    <p>Herts, Cambs, Beds, Bucks, North London</p>
+    <p>
+      email: <a href="mailto:{email}">{email}</a>
+    </p>
+    <p>
+      phone: <a href="tel:+07747123322">07747 123 322</a>
+    </p>
   </>
 )
 
