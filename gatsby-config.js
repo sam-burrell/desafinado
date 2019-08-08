@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Desafinado`,
-    description: `A barebone landing page starter with some minimal styles.`,
+    description: `Desafinado is ideal for your club, function, restaurant, bar or private
+    party when you want good music that allows easy conversation.`,
     author: `@gillkyle`,
     siteUrl: `https://gatsby-starter-landing-page.netlify.com`,
   },
